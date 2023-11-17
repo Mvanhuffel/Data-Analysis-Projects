@@ -26,3 +26,5 @@ The company collected data on individuals who purchased a treadmill from the Aer
 - Fitness - self-rated fitness on a 1-5 scale, where 1 is the poor shape and 5 is the excellent shape.
 - Income - annual income in US dollars.
 - Miles - the average number of miles the customer expects to walk/run each week.
+
+The raw dataset can be found here [here]([https://pages.github.com/](https://github.com/Mvanhuffel/Data-Analysis-Projects/blob/main/Aerofit%20Buyer%20Profile/aerofit_treadmill_data.csv)https://github.com/Mvanhuffel/Data-Analysis-Projects/blob/main/Aerofit%20Buyer%20Profile/aerofit_treadmill_data.csv).
