@@ -20,6 +20,14 @@ Features: Product, Age, Gender, Education, Marital Status, Usage, Fitness, Incom
 The raw dataset can be found [here](https://github.com/Mvanhuffel/Data-Analysis-Projects/blob/63176dbc18aeb20b3ee1755208c4707dab06e738/Aerofit%20Buyer%20Profile/aerofit_treadmill_data.csv).
 
 ## Methodology
+
+Python Libraries:
+- numpy for numerical computations.
+- pandas for data manipulation and analysis.
+- matplotlib and seaborn for data visualization.
+- scipy.stats for statistical functions.
+- warnings to manage warning messages.
+
 Data Exploration and Processing:
 - Initial Examination: Utilized pandas to load and inspect the dataset, focusing on its structure, types of variables, and initial data quality.
 - Data Cleaning: Performed necessary cleaning steps, such as handling missing values and standardizing data formats.
