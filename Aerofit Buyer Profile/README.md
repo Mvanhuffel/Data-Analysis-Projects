@@ -21,12 +21,7 @@ The raw dataset can be found [here](https://github.com/Mvanhuffel/Data-Analysis-
 
 ## Methodology
 
-Python Libraries:
-- numpy for numerical computations.
-- pandas for data manipulation and analysis.
-- matplotlib and seaborn for data visualization.
-- scipy.stats for statistical functions.
-- warnings to manage warning messages.
+Python Libraries: Numpy, Pandas, Matplotlib and Seaborn for data visualization, Scipy.stats for statistical functions, Warnings to manage warning messages.
 
 Data Exploration and Processing:
 - Initial Examination: Utilized pandas to load and inspect the dataset, focusing on its structure, types of variables, and initial data quality.
