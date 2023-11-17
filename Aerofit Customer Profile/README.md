@@ -48,3 +48,14 @@ Outlier Detection:
 - Applied statistical techniques to detect and handle outliers in the dataset, ensuring the robustness of the analysis.
 
 You can find my code [here](https://github.com/Mvanhuffel/Data-Analysis-Projects/blob/98dc59dee95f1907cae35019a3f6e83418c94ca3/Aerofit%20Customer%20Profile/aerofit_treadmill_customer_profile_analysis.ipynb).
+
+## Conclusion
+
+- Model KP281 is the best-selling product. 44.0% of all treadmill sales go to model KP281.
+- The majority of treadmill customers fall within the $ 45,000 - $ 80,000 income bracket.
+- 83% of treadmills are bought by individuals with incomes between $ 35,000 and $ 85,000
+- There are only 8% of customers with incomes below $ 35000 who buy treadmills.
+- 88% of treadmills are purchased by customers aged 20 to 40.
+- Miles and Fitness & Miles and Usage are highly correlated, which means if a customer's fitness level is high they use more treadmills.
+- KP781 is the only model purchased by a customer who has more than 20 years of education and an income of over $ 85,000.
+- With Fitness level 4 and 5, the customers tend to use high-end treadmills and the average number of miles is above 150 per week.
