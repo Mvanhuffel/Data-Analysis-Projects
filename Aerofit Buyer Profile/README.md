@@ -1,34 +1,48 @@
 # Aerofit Buyer Profile
 
-## Description
+## Overview
 
-This project seeks to identify the characteristics of the target audience for each type of treadmill offered by Aerofit, in order to provide better recommendations for treadmills to new customers. The analysis seeks to determine whether there are differences across the product with respect to customer characteristics.
+This project was part of a recruitment assignment for data science positions at AeroFit. It focuses on analyzing customer data to create distinct profiles for buyers of different treadmill models offered by AeroFit. The aim is to aid the market research team in identifying target audiences and enhancing product recommendations.
 
 ## Objective
-Perform descriptive analytics to create a customer profile for each AeroFit treadmill product by developing appropriate tables and charts. For each AeroFit treadmill product, construct two-way contingency tables and compute all conditional and marginal probabilities along with their insights/impact on the business.
+- Primary Goal: Develop customer profiles for each treadmill product (KP281, KP481, KP781) based on various customer characteristics.
+- Analytical Approach: Utilize descriptive analytics to analyze customer data, constructing two-way contingency tables and computing conditional and marginal probabilities.
+Business Impact: Provide insights into customer preferences and behaviors, supporting strategic marketing and sales decisions.
+
+## AeroFit's Product Portfolio
+- KP281: Entry-level treadmill, priced at $1,500.
+- KP481: Mid-level treadmill for regular runners, priced at $1,750.
+- KP781: Advanced features treadmill, priced at $2,500.
 
 ## Data Description
-
-Product Portfolio:
-- The KP281 is an entry-level treadmill that sells for $1,500;
-- The KP481 is for mid-level runners and sells for $1,750;
-- The KP781 treadmill has advanced features and sells for $2,500.
-
-
-The company collected data on individuals who purchased a treadmill from the AeroFit stores during the prior three months. The dataset in aerofit_treadmill_data.csv has the following features:
-
-- Product - product purchased: KP281, KP481, or KP781.
-- Age - in years.
--  Gender - male/female.
-- Education - in years.
-- MaritalStatus - single or partnered.
-- Usage - the average number of times the customer plans to use the treadmill each week.
-- Fitness - self-rated fitness on a 1-5 scale, where 1 is the poor shape and 5 is the excellent shape.
-- Income - annual income in US dollars.
-- Miles - the average number of miles the customer expects to walk/run each week.
-
+Dataset: aerofit_treadmill_data.csv representing data from recent purchases at AeroFit stores.
+Features: Product, Age, Gender, Education, Marital Status, Usage, Fitness, Income, Miles.
 The raw dataset can be found [here](https://github.com/Mvanhuffel/Data-Analysis-Projects/blob/63176dbc18aeb20b3ee1755208c4707dab06e738/Aerofit%20Buyer%20Profile/aerofit_treadmill_data.csv).
 
-## Code
+## Methodology
+Data Exploration and Processing:
+- Initial Examination: Utilized pandas to load and inspect the dataset, focusing on its structure, types of variables, and initial data quality.
+- Data Cleaning: Performed necessary cleaning steps, such as handling missing values and standardizing data formats.
+Statistical Summary:
+- Generated descriptive statistics to understand the central tendency, dispersion, and shape of the dataset's distributions.
+Non-Graphical Analysis:
+- Included value counts and identification of unique attributes to understand data distribution and variability.
+Graphical Analysis:
+- Univariate Analysis: Used matplotlib and seaborn for visualizing distributions of numerical and categorical variables separately.
+- Bivariate Analysis: Examined relationships between pairs of variables.
+- Multivariate Analysis: Explored interactions among multiple variables.
+Correlation Analysis:
+- Employed statistical methods (using scipy and seaborn) to identify and visualize correlations between different variables.
+Probability Analysis:
+- Computed marginal and conditional probabilities to understand the likelihood of different customer characteristics and behaviors.
+Outlier Detection:
+- Applied statistical techniques to detect and handle outliers in the dataset, ensuring the robustness of the analysis.
+Tools Used:
+Python Libraries:
+- numpy for numerical computations.
+- pandas for data manipulation and analysis.
+- matplotlib and seaborn for data visualization.
+- scipy.stats for statistical functions.
+- warnings to manage warning messages.
 
 You can see my code here. (TBD)
