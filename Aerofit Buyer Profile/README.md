@@ -23,21 +23,27 @@ The raw dataset can be found [here](https://github.com/Mvanhuffel/Data-Analysis-
 Data Exploration and Processing:
 - Initial Examination: Utilized pandas to load and inspect the dataset, focusing on its structure, types of variables, and initial data quality.
 - Data Cleaning: Performed necessary cleaning steps, such as handling missing values and standardizing data formats.
+
 Statistical Summary:
 - Generated descriptive statistics to understand the central tendency, dispersion, and shape of the dataset's distributions.
+
 Non-Graphical Analysis:
 - Included value counts and identification of unique attributes to understand data distribution and variability.
+
 Graphical Analysis:
 - Univariate Analysis: Used matplotlib and seaborn for visualizing distributions of numerical and categorical variables separately.
 - Bivariate Analysis: Examined relationships between pairs of variables.
 - Multivariate Analysis: Explored interactions among multiple variables.
+
 Correlation Analysis:
 - Employed statistical methods (using scipy and seaborn) to identify and visualize correlations between different variables.
+
 Probability Analysis:
 - Computed marginal and conditional probabilities to understand the likelihood of different customer characteristics and behaviors.
+
 Outlier Detection:
 - Applied statistical techniques to detect and handle outliers in the dataset, ensuring the robustness of the analysis.
-Tools Used:
+
 Python Libraries:
 - numpy for numerical computations.
 - pandas for data manipulation and analysis.
