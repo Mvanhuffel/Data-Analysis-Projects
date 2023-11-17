@@ -1,4 +1,4 @@
-# Aerofit Buyer Profile
+# Aerofit Customer Profile
 
 ## Overview
 
