@@ -1,6 +1,4 @@
 # Data Analysis Projects
 
-Contains various data analysis projects: 
-
 ## Aerofit Customer Profile
-Analyze customer data to create distinct profiles for customers of different treadmill models offered by AeroFit. The aim was to aid the market research team in identifying target audiences and enhancing product recommendations.
+The project focused on developing customer profiles for AeroFit's treadmill products (KP281, KP481, KP781) using their customer data. The primary goal was to aid in market research and enhance product recommendations. This involved descriptive analytics, constructing contingency tables, and calculating probabilities to understand customer preferences and behaviors.
