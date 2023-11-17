@@ -27,4 +27,4 @@ The company collected data on individuals who purchased a treadmill from the Aer
 - Income - annual income in US dollars.
 - Miles - the average number of miles the customer expects to walk/run each week.
 
-The raw dataset can be found here [here]([https://pages.github.com/](https://github.com/Mvanhuffel/Data-Analysis-Projects/blob/main/Aerofit%20Buyer%20Profile/aerofit_treadmill_data.csv)https://github.com/Mvanhuffel/Data-Analysis-Projects/blob/main/Aerofit%20Buyer%20Profile/aerofit_treadmill_data.csv).
+The raw dataset can be found [here](https://github.com/Mvanhuffel/Data-Analysis-Projects/blob/63176dbc18aeb20b3ee1755208c4707dab06e738/Aerofit%20Buyer%20Profile/aerofit_treadmill_data.csv).
