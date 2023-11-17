@@ -16,6 +16,7 @@ The KP781 treadmill has advanced features and sells for $2,500.
 
 
 The company collected data on individuals who purchased a treadmill from the AeroFit stores during the prior three months. The dataset in aerofit_treadmill_data.csv has the following features:
+
 Product - product purchased: KP281, KP481, or KP781.
 Age - in years.
 Gender - male/female.
