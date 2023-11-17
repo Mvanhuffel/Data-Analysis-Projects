@@ -52,11 +52,4 @@ Probability Analysis:
 Outlier Detection:
 - Applied statistical techniques to detect and handle outliers in the dataset, ensuring the robustness of the analysis.
 
-Python Libraries:
-- numpy for numerical computations.
-- pandas for data manipulation and analysis.
-- matplotlib and seaborn for data visualization.
-- scipy.stats for statistical functions.
-- warnings to manage warning messages.
-
 You can see my code here. (TBD)
