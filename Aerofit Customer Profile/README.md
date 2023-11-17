@@ -47,4 +47,4 @@ Probability Analysis:
 Outlier Detection:
 - Applied statistical techniques to detect and handle outliers in the dataset, ensuring the robustness of the analysis.
 
-You can see my code here. (TBD)
+You can find my code [here](https://github.com/Mvanhuffel/Data-Analysis-Projects/blob/98dc59dee95f1907cae35019a3f6e83418c94ca3/Aerofit%20Customer%20Profile/aerofit_treadmill_customer_profile_analysis.ipynb).
