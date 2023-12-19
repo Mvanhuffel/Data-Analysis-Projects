@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project was part of a recruitment assignment for data science positions at AeroFit. It focuses on analyzing customer data to create distinct profiles for buyers of different treadmill models offered by AeroFit. The aim was to aid the market research team in identifying target audiences and enhancing product recommendations.
+This project focused on analyzing customer data to create distinct profiles for buyers of different treadmill models offered by AeroFit. The aim was to aid the market research team in identifying target audiences and enhancing product recommendations.
 
 ## Objective
 - Primary Goal: Develop customer profiles for each treadmill product (KP281, KP481, KP781) based on various customer characteristics.
