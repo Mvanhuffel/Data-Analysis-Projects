@@ -13,11 +13,11 @@ Develop customer profiles for each treadmill product (KP281, KP481, KP781) based
 - **KP781**: Advanced features treadmill, priced at $2,500.
 
 ## Project files
-```aerofit_treadmill_data.csv```: Contains raw dataset from recent purchases at AeroFit stores. Found [here](https://github.com/Mvanhuffel/Data-Analysis-Projects/blob/63176dbc18aeb20b3ee1755208c4707dab06e738/Aerofit%20Buyer%20Profile/aerofit_treadmill_data.csv).
+```aerofit_treadmill_data.csv```: Contains raw dataset from recent purchases at AeroFit stores. Link to file [here](https://github.com/Mvanhuffel/Data-Analysis-Projects/blob/63176dbc18aeb20b3ee1755208c4707dab06e738/Aerofit%20Buyer%20Profile/aerofit_treadmill_data.csv).
 
 Features: Product, Age, Gender, Education, Marital Status, Usage, Fitness, Income, Miles.
 
-```aerofit_treadmill_customer_profile_analysis.ipynb```: My code. [here](https://github.com/Mvanhuffel/Data-Analysis-Projects/blob/98dc59dee95f1907cae35019a3f6e83418c94ca3/Aerofit%20Customer%20Profile/aerofit_treadmill_customer_profile_analysis.ipynb).
+```aerofit_treadmill_customer_profile_analysis.ipynb```: Jupyter notebook containing data analysis of Aerofit treadmill customer profiles, utilizing Python for exploratory data analysis, feature engineering, and predictive modelingMy. Link to file [here](https://github.com/Mvanhuffel/Data-Analysis-Projects/blob/98dc59dee95f1907cae35019a3f6e83418c94ca3/Aerofit%20Customer%20Profile/aerofit_treadmill_customer_profile_analysis.ipynb).
 
 ## Methodology
 
