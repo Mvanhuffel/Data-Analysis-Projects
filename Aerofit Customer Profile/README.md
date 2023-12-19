@@ -13,11 +13,10 @@ Develop customer profiles for each treadmill product (KP281, KP481, KP781) based
 - **KP781**: Advanced features treadmill, priced at $2,500.
 
 ## Project files
-```aerofit_treadmill_data.csv```: contains data from recent purchases at AeroFit stores.
-
+```aerofit_treadmill_data.csv```: Contains raw dataset from recent purchases at AeroFit stores. Found [here](https://github.com/Mvanhuffel/Data-Analysis-Projects/blob/63176dbc18aeb20b3ee1755208c4707dab06e738/Aerofit%20Buyer%20Profile/aerofit_treadmill_data.csv).
 Features: Product, Age, Gender, Education, Marital Status, Usage, Fitness, Income, Miles.
 
-The raw dataset can be found [here](https://github.com/Mvanhuffel/Data-Analysis-Projects/blob/63176dbc18aeb20b3ee1755208c4707dab06e738/Aerofit%20Buyer%20Profile/aerofit_treadmill_data.csv).
+```aerofit_treadmill_customer_profile_analysis.ipynb```: My code. [here](https://github.com/Mvanhuffel/Data-Analysis-Projects/blob/98dc59dee95f1907cae35019a3f6e83418c94ca3/Aerofit%20Customer%20Profile/aerofit_treadmill_customer_profile_analysis.ipynb).
 
 ## Methodology
 
@@ -46,8 +45,6 @@ Probability Analysis:
 
 Outlier Detection:
 - Applied statistical techniques to detect and handle outliers in the dataset, ensuring the robustness of the analysis.
-
-You can find my code [here](https://github.com/Mvanhuffel/Data-Analysis-Projects/blob/98dc59dee95f1907cae35019a3f6e83418c94ca3/Aerofit%20Customer%20Profile/aerofit_treadmill_customer_profile_analysis.ipynb).
 
 ## Conclusion
 
