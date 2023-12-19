@@ -14,6 +14,7 @@ Develop customer profiles for each treadmill product (KP281, KP481, KP781) based
 
 ## Project files
 ```aerofit_treadmill_data.csv```: Contains raw dataset from recent purchases at AeroFit stores. Found [here](https://github.com/Mvanhuffel/Data-Analysis-Projects/blob/63176dbc18aeb20b3ee1755208c4707dab06e738/Aerofit%20Buyer%20Profile/aerofit_treadmill_data.csv).
+
 Features: Product, Age, Gender, Education, Marital Status, Usage, Fitness, Income, Miles.
 
 ```aerofit_treadmill_customer_profile_analysis.ipynb```: My code. [here](https://github.com/Mvanhuffel/Data-Analysis-Projects/blob/98dc59dee95f1907cae35019a3f6e83418c94ca3/Aerofit%20Customer%20Profile/aerofit_treadmill_customer_profile_analysis.ipynb).
