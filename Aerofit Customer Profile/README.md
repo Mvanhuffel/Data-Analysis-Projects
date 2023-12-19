@@ -2,20 +2,18 @@
 
 ## Overview
 
-This project focused on analyzing customer data to create distinct profiles for buyers of different treadmill models offered by AeroFit. The aim was to aid the market research team in identifying target audiences and enhancing product recommendations.
+This project was an exercise to illustrate Python's analytical capabilities. The dataset came from a treadmill company called Aerofit and contained customer and sales data related to their product line. The aim was to hypothetically aid the market research team in identifying target audiences and enhancing product recommendations by creating distinct profiles for buyers of different treadmill models offered by the company. This was done by utilizing descriptive analytics to analyze customer data, construct two-way contingency tables, and compute conditional and marginal probabilities. 
 
 ## Objective
-- Primary Goal: Develop customer profiles for each treadmill product (KP281, KP481, KP781) based on various customer characteristics.
-- Analytical Approach: Utilize descriptive analytics to analyze customer data, constructing two-way contingency tables and computing conditional and marginal probabilities.
-Business Impact: Provide insights into customer preferences and behaviors, supporting strategic marketing and sales decisions.
+Develop customer profiles for each treadmill product (KP281, KP481, KP781) based on various customer characteristics.
 
 ## AeroFit's Product Portfolio
-- KP281: Entry-level treadmill, priced at $1,500.
-- KP481: Mid-level treadmill for regular runners, priced at $1,750.
-- KP781: Advanced features treadmill, priced at $2,500.
+- **KP281**: Entry-level treadmill, priced at $1,500.
+- **KP481**: Mid-level treadmill for regular runners, priced at $1,750.
+- **KP781**: Advanced features treadmill, priced at $2,500.
 
-## Data Description
-Dataset: aerofit_treadmill_data.csv representing data from recent purchases at AeroFit stores.
+## Project files
+```aerofit_treadmill_data.csv```: contains data from recent purchases at AeroFit stores.
 Features: Product, Age, Gender, Education, Marital Status, Usage, Fitness, Income, Miles.
 The raw dataset can be found [here](https://github.com/Mvanhuffel/Data-Analysis-Projects/blob/63176dbc18aeb20b3ee1755208c4707dab06e738/Aerofit%20Buyer%20Profile/aerofit_treadmill_data.csv).
 
