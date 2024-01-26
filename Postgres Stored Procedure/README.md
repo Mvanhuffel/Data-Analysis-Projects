@@ -7,4 +7,4 @@ Here is an example that sets up a trigger to automatically update the datetime c
 an update operation is performed on the table. The stored procedure is used to define the functionality of the trigger.
 
 ## Project files
-```automate_datetime_update.sql```: Contains sample data and instructions on how to create the automation described above. Link to file [here]([https://github.com/Mvanhuffel/Data-Analysis-Projects/blob/63176dbc18aeb20b3ee1755208c4707dab06e738/Aerofit%20Buyer%20Profile/aerofit_treadmill_data.csv](https://github.com/Mvanhuffel/Data_Analysis_Projects/blob/main/Postgres%20Stored%20Procedure/automate_datetime_update.sql)https://github.com/Mvanhuffel/Data_Analysis_Projects/blob/main/Postgres%20Stored%20Procedure/automate_datetime_update.sql).
+```automate_datetime_update.sql```: Contains sample data and instructions on how to create the automation described above. Link to file [here](https://github.com/Mvanhuffel/Data_Analysis_Projects/blob/main/Postgres%20Stored%20Procedure/automate_datetime_update.sql).
