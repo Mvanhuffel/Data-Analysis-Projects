@@ -1,10 +1,8 @@
-When working with databases, it's important to keep track of when data is updated or inserted. 
-One common way to do this is to have a column in your table that records the time of the last update. 
-However, manually updating this column every time you insert or update data can be tedious and error-prone. 
-That's where stored procedures and triggers come in.
+The project demonstrates automating the update of a datetime column in a PostgreSQL database using stored procedures and triggers to streamline data management. 
 
-Here is an example that sets up a trigger to automatically update the datetime column of a row whenever 
-an update operation is performed on the table. The stored procedure is used to define the functionality of the trigger.
+A table named transaction is created with columns for transaction details, including created_at and updated_at timestamps. A stored procedure, trigger_set_timestamp, is defined to update the updated_at column to the current timestamp whenever a row is updated. This functionality is implemented through a trigger, set_timestamp, which is activated before any update operation on the transaction table. 
+
+The project contrasts the efficiency of this automated approach with the manual updating of the datetime column, showcasing the benefits of using triggers and stored procedures in database management.
 
 ## Project files
 ```automate_datetime_update.sql```: Contains sample data and instructions on how to create the automation described above. Link to file [here](https://github.com/Mvanhuffel/Data_Analysis_Projects/blob/main/Postgres%20Stored%20Procedure/automate_datetime_update.sql).
