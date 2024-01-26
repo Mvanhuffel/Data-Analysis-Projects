@@ -1,5 +1,7 @@
 (WORK IN PROGRESS)
 
+# Schema Auditing System
+
 ### Step 1: Create an Audit Table
 
 First, you need to create a table that will store the details of schema changes. This table can have columns for the type of change, the object affected, the time of the change, and other relevant details.
