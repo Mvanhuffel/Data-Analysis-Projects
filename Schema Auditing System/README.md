@@ -19,7 +19,7 @@ CREATE TABLE schema_audit (
 
 ### Step 2: Create Event Triggers
 
-PostgreSQL supports event triggers that can be fired on DDL (Data Definition Language), statements like `CREATE`, `ALTER`, and `DROP`. Create event triggers for these statements and log the changes in your audit table.
+PostgreSQL supports event triggers that can be fired on DDL (Data Definition Language), statements like `CREATE`, `ALTER`, and `DROP`. Create event triggers for these statements and log the changes in the audit table.
 
 Here's an example of an event trigger for `CREATE` statements:
 
@@ -40,7 +40,7 @@ WHEN TAG IN ('CREATE TABLE')
 EXECUTE FUNCTION log_ddl_create_event();
 ```
 
-This trigger logs every `CREATE TABLE` statement. Similar triggers for other DDL statements like `ALTER TABLE` and `DROP TABLE` can be creaed.
+This trigger logs every `CREATE TABLE` statement. Similar triggers for other DDL statements like `ALTER TABLE` and `DROP TABLE` can be created.
 
 ### Step 3: Query the Audit Table
 
