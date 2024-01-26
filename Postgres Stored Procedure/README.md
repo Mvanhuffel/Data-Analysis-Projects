@@ -1,4 +1,4 @@
-# Automating Timestamp Updates with PostgreSQL Triggers and Stored Procedures
+# Automating Timestamp Updates with Postgres Triggers and Stored Procedures
 
 ## Overview
 
