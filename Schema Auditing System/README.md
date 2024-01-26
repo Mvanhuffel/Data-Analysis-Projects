@@ -4,7 +4,7 @@
 
 ### Step 1: Create an Audit Table
 
-First, you need to create a table that will store the details of schema changes. This table can have columns for the type of change, the object affected, the time of the change, and other relevant details.
+Create a table that will store the details of schema changes. This table can have columns for the type of change, the object affected, the time of the change, and other relevant details.
 
 ```
 CREATE TABLE schema_audit (
@@ -19,7 +19,7 @@ CREATE TABLE schema_audit (
 
 ### Step 2: Create Event Triggers
 
-PostgreSQL supports event triggers that can be fired on DDL (Data Definition Language) statements like `CREATE`, `ALTER`, and `DROP`. You can create event triggers for these statements and log the changes in your audit table.
+PostgreSQL supports event triggers that can be fired on DDL (Data Definition Language), statements like `CREATE`, `ALTER`, and `DROP`. Create event triggers for these statements and log the changes in your audit table.
 
 Here's an example of an event trigger for `CREATE` statements:
 
@@ -40,11 +40,11 @@ WHEN TAG IN ('CREATE TABLE')
 EXECUTE FUNCTION log_ddl_create_event();
 ```
 
-This trigger logs every `CREATE TABLE` statement. You can create similar triggers for other DDL statements like `ALTER TABLE` and `DROP TABLE`.
+This trigger logs every `CREATE TABLE` statement. Similar triggers for other DDL statements like `ALTER TABLE` and `DROP TABLE` can be creaed.
 
 ### Step 3: Query the Audit Table
 
-To get a list of schema changes, you can simply query the audit table:
+To get a list of schema changes, simply query the audit table:
 
 ```
 SELECT * FROM schema_audit ORDER BY change_timestamp DESC;
