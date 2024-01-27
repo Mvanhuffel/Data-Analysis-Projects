@@ -14,6 +14,7 @@ Having a log of schema changes helps in diagnosing issues that may arise from re
 **Collaboration and Communication:** 
 In environments where multiple teams or developers are working on the same database, it helps in communicating changes and ensuring that everyone is aware of the current state of the database schema.
 
+## Setup
 To set up a schema change auditing system, you need to create an audit table, and define event triggers for DDL statements. 
 
 ### Step 1: Create audit table for tracking DDL changes in the database schema
