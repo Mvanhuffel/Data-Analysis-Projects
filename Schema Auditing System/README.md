@@ -7,10 +7,10 @@ Inspired by a post on r/dataengineering, I sought to create a system which could
 <ins>Change Tracking:</ins>
 It provides a detailed record of when and how the database schema has changed over time, helping to understand the evolution of the database structure.
 
-**Debugging and Troubleshooting:** 
+<ins>Debugging and Troubleshooting:</ins>
 Having a log of schema changes helps in diagnosing issues that may arise from recent changes to the database structure.
 
-**Collaboration and Communication:** 
+<ins>Collaboration and Communication:</ins>
 In environments where multiple teams or developers are working on the same database, it helps in communicating changes and ensuring that everyone is aware of the current state of the database schema.
 
 ## Setup
