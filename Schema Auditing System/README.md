@@ -1,5 +1,3 @@
-(WORK IN PROGRESS)
-
 # Schema Auditing System
 
 Inspired by a post on r/dataengineering, I sought to create a system which could log and identify schema changes in a database. The auditing system serves the following functions:
