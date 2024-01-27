@@ -4,11 +4,14 @@
 
 Inspired by a post on r/dataengineering, I sought to create a system which could log and identify schema changes in a database. The auditing system serves the following functions:
 
-**Change Tracking:** It provides a detailed record of when and how the database schema has changed over time, helping to understand the evolution of the database structure.
+**Change Tracking:** 
+It provides a detailed record of when and how the database schema has changed over time, helping to understand the evolution of the database structure.
 
-**Debugging and Troubleshooting:** Having a log of schema changes helps in diagnosing issues that may arise from recent changes to the database structure.
+**Debugging and Troubleshooting:** 
+Having a log of schema changes helps in diagnosing issues that may arise from recent changes to the database structure.
 
-**Collaboration and Communication:** In environments where multiple teams or developers are working on the same database, it helps in communicating changes and ensuring that everyone is aware of the current state of the database schema.
+**Collaboration and Communication:** 
+In environments where multiple teams or developers are working on the same database, it helps in communicating changes and ensuring that everyone is aware of the current state of the database schema.
 
 To set up a schema change auditing system, you need to create an audit table, and define event triggers for DDL statements. 
 
