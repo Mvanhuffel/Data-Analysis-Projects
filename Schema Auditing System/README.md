@@ -5,6 +5,7 @@
 Inspired by a post on r/dataengineering, I sought to create a system which could log and identify schema changes in a database. The auditing system serves the following functions:
 
 **Change Tracking:** 
+
 It provides a detailed record of when and how the database schema has changed over time, helping to understand the evolution of the database structure.
 
 **Debugging and Troubleshooting:** 
