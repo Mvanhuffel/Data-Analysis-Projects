@@ -42,4 +42,4 @@ This project was an exercise to illustrate Python's analytical capabilities. The
 
 ## Prerequisites
 - Python
-- Libraries: Numpy, Pandas, Matplotlib, Seaborn, and Scipy.stats
+  - Libraries: Numpy, Pandas, Matplotlib, Seaborn, and Scipy.stats
