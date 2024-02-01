@@ -1,22 +1,14 @@
 # Schema Auditing System
+The project develops a system to log and monitor changes in database schemas, inspired by a discussion on r/dataengineering. This system aims to provide a comprehensive record of schema modifications over time, assisting in understanding the database's structural evolution, and facilitating debugging and troubleshooting.
 
-Inspired by a post on r/dataengineering, I sought to create a system which could log and identify schema changes in a database. The auditing system serves the following functions:
+## Objectives
+- **Change Tracking**: Implement a mechanism to log detailed records of database schema changes over time, aiding in the analysis of the database's structural evolution.
+- **Debugging and Troubleshooting**: Utilize the schema change log to diagnose and resolve issues stemming from recent modifications to the database structure.
+- **Collaboration and Communication**: Foster better communication and collaboration among teams or developers working on the same database by providing a clear record of schema changes.
 
-<ins>Change Tracking:</ins>
-It provides a detailed record of when and how the database schema has changed over time, helping to understand the evolution of the database structure.
-
-<ins>Debugging and Troubleshooting:</ins>
-Having a log of schema changes helps in diagnosing issues that may arise from recent changes to the database structure.
-
-<ins>Collaboration and Communication:</ins>
-In environments where multiple teams or developers are working on the same database, it helps in communicating changes and ensuring that everyone is aware of the current state of the database schema.
-
-## Setup
-To set up a schema change auditing system, you need to create an audit table, and define event triggers for DDL statements. 
-
-### Step 1: Create audit table for tracking DDL changes in the database schema
-
-This is the table that will store the details of schema changes. This table can have columns for the type of change, the object affected, the time of the change, and other relevant details.
+## Methodology
+### 1. Audit Table Creation
+- **Audit table setup**: Established a dedicated table within the database to record details of schema changes, including the type of change, the affected object, the timestamp of the change, and other important details.
 
 ```ruby
 CREATE TABLE schema_audit (
@@ -29,9 +21,8 @@ CREATE TABLE schema_audit (
 );
 ```
 
-### Step 2: Create Event Triggers
-
-PostgreSQL supports event triggers that can be fired on DDL (Data Definition Language), statements like `CREATE`, `ALTER`, and `DROP`. Create event triggers for these statements to log the changes in the audit table.
+### 2. Event Triggers Implementation
+- **DDL statement monitoring**: Configured event triggers within the database to respond to DDL (Data Definition Language) statements (e.g, CREATE, ALTER, and DROP), ensuring that every schema change is logged in the audit table.
 
 This trigger logs every `CREATE TABLE` statement:
 
@@ -52,9 +43,8 @@ WHEN TAG IN ('CREATE TABLE')
 EXECUTE FUNCTION log_ddl_create_event();
 ```
 
-This trigger logs every `CREATE TABLE` statement. Similar triggers for other DDL statements like `ALTER TABLE` and `DROP TABLE` can be created, and are found in the project file `schema_auditing_system.sql`.
-
-### Step 3: Query the Audit Table
+### 3. Schema Change Logging
+- **Continuous monitoring**: The system continually monitors for DDL statements, logging each event in the audit table to provide a real-time, chronological record of schema changes.
 
 To get a list of schema changes, simply query the audit table:
 
@@ -62,10 +52,6 @@ To get a list of schema changes, simply query the audit table:
 SELECT * FROM schema_audit ORDER BY change_timestamp DESC;
 ```
 
-This will give you a list of all schema changes, sorted by the time they occurred.
-
 | ![schema_table](schema_table.png) |
 |:--:| 
 | *schema_audit table* |
-
-
