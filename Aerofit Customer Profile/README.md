@@ -1,4 +1,4 @@
-# Aerofit Customer Profile
+# Customer Profiling Through Data Analytics: A Case Study
 
 This project was an exercise to illustrate Python's analytical capabilities. The objective was to hypothetically support the market research team by identifying distinct customer profiles for each treadmill model from the sales data, and refining product recommendations and targeting strategies.
 
