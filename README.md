@@ -6,5 +6,5 @@ The project applied Python, utilizing Pandas for data processing, Matplotlib and
 ## [Schema Auditing System](https://github.com/Mvanhuffel/Data_Analysis_Projects/tree/main/Schema%20Auditing%20System)
 The project developed a system to log database schema changes, including timestamps and relevant details, in a dedicated table, enabling reports on modifications and maintaining an accurate historical record for efficient schema contract management.
 
-## [Postgres Stored Procedure](https://github.com/Mvanhuffel/Data_Analysis_Projects/tree/main/Postgres%20Stored%20Procedure)
+## [Automating Timestamp Updates in PostgreSQL](https://github.com/Mvanhuffel/Data_Analysis_Projects/tree/main/Postgres%20Stored%20Procedure)
 This project automates timestamp updates in a database table using PostgreSQL triggers and stored procedures, ensuring accurate tracking of data modifications.
