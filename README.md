@@ -1,6 +1,6 @@
 # Data Analysis Projects
 
-## [Customer Profiling Through Data Analytics: A Case Study](https://github.com/Mvanhuffel/Data-Analysis-Projects/tree/main/Aerofit%20Customer%20Profile)
+## [Data-Driven Customer Profiling: A Case Study](https://github.com/Mvanhuffel/Data-Analysis-Projects/tree/main/Aerofit%20Customer%20Profile)
 The project applied Python, utilizing Pandas for data processing, Matplotlib and Seaborn for visualization, and statistical analysis to profile Aerofit treadmill customers, aiding in market research and product recommendation strategies.
 
 ## [Schema Auditing System](https://github.com/Mvanhuffel/Data_Analysis_Projects/tree/main/Schema%20Auditing%20System)
